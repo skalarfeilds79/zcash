@@ -63,7 +63,7 @@ ipnet = "2"
 metrics = "0.17"
 metrics-exporter-prometheus = "0.6"
 thiserror = "1"
-tokio = { version = "1.0", features = ["rt", "net", "time", "macros"] }
+tokio = { version = "1.18", features = ["rt", "net", "time", "macros"] }
 
 # Wallet tool
 # (also depends on thiserror, tracing, and tracing-subscriber with "env-filter" and "fmt" features)
